@@ -40,3 +40,74 @@ h3 {
 h4 {
     font-size: 1.5rem;
 }
+
+#main {
+    background-color: var(--color-med);
+    margin: 30px 10px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+#img-div {
+    background-color: var(--color-light);
+    padding: 10px;
+    margin: 0;
+    border-radius: 8px;
+}
+
+#img-caption {
+    font-style: italic;
+    margin: 16px;
+}
+
+ul {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    list-style-type: none;
+}
+
+li {
+    margin: 16px 0;
+}
+
+blockquote {
+    font-style: italic;
+    line-height: 1;
+    max-width: 550px;
+    margin: 0 auto;  
+}
+
+a {
+    color: var(--color-link);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--color-link-visited);
+}
+
+/* Media Queries */
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    #main {
+        margin: 0;
+    }
+}
