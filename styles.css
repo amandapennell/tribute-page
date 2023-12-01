@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700;900&display=swap');
+
+:root {
+    --color-dark: #333;
+    --color-med: #eee;
+    --color-light: #fff;
+    --color-link: darkblue;
+    --color-link-visited: rebeccapurple;
+}
+
+body {
+    color: var(--color-dark);
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+h2, h3, h4 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
