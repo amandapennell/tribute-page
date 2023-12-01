@@ -1,4 +1,4 @@
-# [Build a Tribute Page] (https://amandapennell.github.io/tribute-page/)
+# [Build a Tribute Page](https://amandapennell.github.io/tribute-page/)
 Part of the [freeCodeCamp Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design/).
 
 ## FCC Certification Project
